@@ -28,9 +28,7 @@ class ViewController: UIViewController {
         averageAmountTextField.text = "0"
     }
     
-    
     @IBAction func tipPercentage(_ sender: UIButton) {
-        print(sender.tag)
         tipTextField.text = tipsArray[sender.tag]
     }
     
